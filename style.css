@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@800&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap');
+
+.navbar-brand img {
+  width: 140px;
+}
+
+section {
+  padding-top:4rem;
+}
+
+.nav-navbar-brand {
+  color: #fff;
+}
+.hero {
+  min-height: 100vh;
+  margin-top: 3.5rem;
+  background-size: cover;
+  background-position: center;
+  background-color: #ffd5c8;
+  margin-bottom: -12rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 15rem;
+  margin-left: 10rem;
+  font-family: "Merienda", cursive;
+  font-weight: 100;
+}
+
+.hero img {
+  width: 400px;
+  height: 400px;
+  margin-left: 1rem;
+  margin-top: 5rem;
+}
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.5rem; /* Mengubah ukuran font */
+    text-align: center; /* Mengubah posisi teks */
+    margin-top: 7rem; /* Mengubah jarak atas */
+    margin-left: 0; /* Mengubah margin kiri */
+  }
+
+  .hero img {
+    width: 200px; /* Mengubah ukuran gambar */
+    height: 200px;
+    margin-left: 0; /* Mengubah margin kiri */
+    margin-top: 6rem; /* Mengubah jarak atas */
+  }
+}
+
+#features {
+  background-color: #f3f4f5;
+  margin-top: -2rem;
+}
+
+.card {
+  margin-bottom: 30px;
+  background-color: #FAF2e8;
+}
+
+#pricing {
+  background-color: #ffd5c8;
+  margin-bottom: 3rem;
+  font-family: 'Rosarivo', cursive;
+  margin-top: -2rem;
+}
+
+#pricing h1 {
+  font-size: 2rem;
+}
+
+#pricing h2 {
+  font-size: 1.9rem;
+}
+
+#pricing h4 {
+  font-family: 'Rosarivo', cursive;
+  font-style :italic 
+}
+
+.price-container{
+  margin-top: 40px;
+  margin-left: 11rem;
+}
+
+#contact {
+  background-color: #f3f4f5;
+  margin-top: -5rem;
+  padding-bottom: 5rem;
+}
+
+footer {
+  background-color: #FAF2e8; 
+  color: black; 
+  padding: 20px 0; 
+  margin-top: -5rem;
+}
+
+footer a {
+  color: black; 
+  text-decoration: none; 
+  margin: 0 10px; 
+  transition: color 0.3s; 
+}
+
+footer a:hover {
+  color: #00a0e3; 
+}
+
+@media screen and (max-width: 768px) {
+  .price-container {
+    padding-bottom: 1rem;
+    margin-left: 2rem; 
+  }
+
+  footer {
+    margin-top: -6rem; 
+  }
+  #contact{
+    margin-top:-4rem;
+  }
+}
